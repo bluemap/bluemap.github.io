@@ -10,7 +10,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
 company_name: "Guangzhou Miqu Information Technology Co., Ltd."
-company_name_cn: "广州觅趣信息科技有限公司"
 slogan: "Joy is Yours to Discover"
 industry: "Information Transmission, Software and Information Technology Services"
 core_business: ["Mobile App Development", "Web Application Development", "Mini-Program Development"]
@@ -21,9 +20,9 @@ twitter_username: miqu_tech
 github_username: miqu-tech
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima  # Removed to avoid default blog pages
+# plugins:       # Removed jekyll-feed plugin
+#   - jekyll-feed
 
 # Collections
 collections:
@@ -36,11 +35,6 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
       type: "services"
@@ -64,3 +58,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - _posts/  # Exclude posts directory

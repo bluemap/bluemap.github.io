@@ -86,7 +86,6 @@ permalink: /contact/
             <div class="contact-details">
               <h3>Company</h3>
               <p>{{ site.company_name }}</p>
-              <p class="company-cn">{{ site.company_name_cn }}</p>
             </div>
           </div>
           
@@ -325,11 +324,6 @@ permalink: /contact/
 
 .contact-details a:hover {
   text-decoration: underline;
-}
-
-.company-cn {
-  font-size: 0.9rem;
-  color: #888;
 }
 
 .response-time {

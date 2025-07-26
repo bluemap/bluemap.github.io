@@ -91,7 +91,6 @@ Update company details in `_config.yml`:
 title: MeeFun - Joy is Yours to Discover
 email: meefun@163.com
 company_name: "Guangzhou Miqu Information Technology Co., Ltd."
-company_name_cn: "广州觅趣信息科技有限公司"
 slogan: "Joy is Yours to Discover"
 ```
 
