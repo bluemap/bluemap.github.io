@@ -20,7 +20,7 @@ permalink: /about/
         
         <p>Founded with a vision to bridge the gap between technology and human needs, we specialize in developing cutting-edge mobile applications, web platforms, and mini-programs that drive business growth and user engagement.</p>
         
-        <div class="company-stats">
+        <!-- <div class="company-stats">
           <div class="stat-item">
             <div class="stat-number">100+</div>
             <div class="stat-label">Projects Completed</div>
@@ -33,7 +33,7 @@ permalink: /about/
             <div class="stat-number">5+</div>
             <div class="stat-label">Years Experience</div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="overview-visual">
         <div class="tech-illustration">
